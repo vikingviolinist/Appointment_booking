@@ -27,7 +27,7 @@ const App = () => {
   useEffect(() => {
     const startDate: string = new Date().toISOString();
     const tempDate: Date = new Date(startDate);
-    tempDate.setDate(tempDate.getDate() + 7);
+    tempDate.setDate(tempDate.getDate() + 6);
     const endDate: string = new Date(tempDate).toISOString();
 
     fetchDates(startDate, endDate)
