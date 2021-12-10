@@ -1,0 +1,32 @@
+.buttons {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  max-width: 550px;
+  overflow-x: scroll;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: transparent;
+  font-size: 1rem;
+  color: #cecece;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.isAvailable {
+  cursor: pointer;
+  color: #61dafb;
+}
+
+.isSelected {
+  background-color: #61dafb;
+  color: #282c34;
+  border-color: #61dafb;
+}

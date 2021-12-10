@@ -1,0 +1,27 @@
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 0.5rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.button {
+  border: 1px solid #dedede;
+  border-radius: 15px;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: transparent;
+}
+
+.isAvailable {
+  cursor: pointer;
+  color: #61dafb;
+}
+
+.isSelected {
+  background-color: #61dafb;
+  color: #282c34;
+  border-color: #61dafb;
+}
