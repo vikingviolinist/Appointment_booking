@@ -28,6 +28,7 @@ const App = () => {
     const startDate: string = new Date().toISOString();
     const tempDate: Date = new Date(startDate);
     tempDate.setDate(tempDate.getDate() + 6);
+    tempDate.setHours(23);
     const endDate: string = new Date(tempDate).toISOString();
 
     fetchDates(startDate, endDate)
