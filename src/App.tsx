@@ -32,11 +32,9 @@ const App = () => {
     const endDate: string = new Date(tempDate).toISOString();
 
     fetchDates(startDate, endDate)
-      .then((res) => {
-        setDates(res);
-        setLoading(false);
-      })
-      .catch(() => setError(true));
+      .then((res) => setDates(res))
+      .catch(() => setError(true))
+      .finally(() => setLoading(false));
   }, []);
 
   if (loading) return <h2>Loading...</h2>;
