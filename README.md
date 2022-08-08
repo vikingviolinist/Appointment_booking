@@ -1,4 +1,4 @@
-# Demo app for Petrus appointment booking 🐶
+# Demo app for Petrus appointment booking.
 
 ### `npm install`
 
